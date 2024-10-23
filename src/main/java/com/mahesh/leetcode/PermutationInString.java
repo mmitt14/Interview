@@ -6,7 +6,7 @@ public class PermutationInString {
 
     }
 
-    public boolean checkInclusion(String s1, String s2) {
+    public static boolean checkInclusion(String s1, String s2) {
         if(s1.length() > s2.length()) return false;
         int matches = 0;
         int[] s1Count = new int[26];
